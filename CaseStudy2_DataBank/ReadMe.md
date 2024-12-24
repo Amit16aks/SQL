@@ -14,4 +14,14 @@ This project dives into the operations of **Data Bank**, a Neo-Bank that ties cu
 ### Tables Used:  
 - **regions**: Contains region details.  
 - **customer_nodes**: Tracks customer-node relationships and time periods.  
-- **customer_transactions**: Stores transaction details (type, amount, date). 
+- **customer_transactions**: Stores transaction details (type, amount, date).
+
+- ## Skills Demonstrated  
+- Advanced SQL: Aggregations, Joins, Subqueries, Window Functions  
+- Business Intelligence: Metrics Calculation, Customer Behavior Analysis  
+- FinTech Analytics  
+
+## How to Explore  
+1. **case_study_2_solution.sql**: Contains all SQL queries for this analysis.  
+2. **Case Study 2 Data Bank.pdf**: The dataset schema for reference.
+3. **Datasets**: contains all the data used in this case study (.sql as well as .csv)  
