@@ -73,7 +73,7 @@ customer_type, transactions, sales, round(sales/transactions,2) as avg_transacti
 from weekly_sales;
 select * from clean_weekly_sales limit 10;
 ```
-Output:
+**Output:**
 - A cleaned table with consistent data for analysis.
 - Added derived columns: week_number, month_number, calender_year, age_band, demographic, and avg_transaction.
 
@@ -100,7 +100,7 @@ from seq52 where x not in (select distinct week_number from clean_weekly_sales);
 select distinct week_number from clean_weekly_sales;
 ```
 
-Output:
+**Output:**
 - A list of missing weeks in the dataset.
 
 ![image](https://github.com/user-attachments/assets/91f42d07-a43f-458f-bd9f-4091ba0a8301)
@@ -115,7 +115,7 @@ from clean_weekly_sales
 group by calender_year;
 ```
 
-Output:
+**Output:**
 - Yearly transaction counts.
 
 ![image](https://github.com/user-attachments/assets/e99b713b-0cd2-4dae-81e4-55d7393db72b)
@@ -130,7 +130,7 @@ from clean_weekly_sales
 group by region, month_number;
 ```
 
-Output:
+**Output:**
 - Monthly sales trends by region.
 
 ![image](https://github.com/user-attachments/assets/cc447ca7-2774-4afc-a489-9ee39eeace73)
@@ -143,9 +143,9 @@ SQL Code:
 select platform, sum(transactions) as total_no_transaction
 from clean_weekly_sales
 group by platform;
-````
+```
 
-Output:
+**Output:**
 - Total transactions for each sales platform (e.g., Retail vs Shopify).
 
 ![image](https://github.com/user-attachments/assets/dc30815d-b379-4f09-a095-0ae9b02cd814)
@@ -169,7 +169,7 @@ from monthly_platform_sales
 group by month_number, calender_year;
 ```
 
-Output:
+**Output:**
 - Monthly sales percentage for Retail and Shopify.
 
 ![image](https://github.com/user-attachments/assets/e224b362-e377-42b8-af45-7db91769cc0b)
@@ -186,7 +186,7 @@ group by calender_year, demographic
 order  by calender_year;
 ```
 
-Output:
+**Output:**
 - Yearly sales contributions by demographic.
 
 ![image](https://github.com/user-attachments/assets/0ce69831-5d9d-4abb-9a13-05e76c37b3d6)
@@ -203,14 +203,14 @@ group by age_band, demographic
 order by total_sales desc;
 ```
 
-Output:
+**Output:**
 - Top contributing demographic for retail sales.
 
 ![image](https://github.com/user-attachments/assets/61b3e34a-66d5-4d45-b26d-de845bdc8d10)
 
 ---
 
-**Skills Demonstrated:**
+#### **Skills Demonstrated:**
 - **SQL:** Data Cleansing, Aggregation, Window Functions, Case Statements
 - **Data Analysis:** Demographics, Sales Trends, Platform Performance
 
