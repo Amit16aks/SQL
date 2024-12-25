@@ -8,6 +8,14 @@ This project focuses on analyzing weekly sales data for **Data Mart**, a sustain
 
 ---
 
+## Dataset  
+
+📂 **Download the Dataset**:  
+You can download the dataset from the repository:  
+- DDL - [Weekly Sales Dataset DDL](https://github.com/Amit16aks/SQL/blob/main/CaseStudy1_DataMart/data_mart_schema.sql) 
+- Csv - [Weekly Sales Dataset csv](https://github.com/Amit16aks/SQL/blob/main/CaseStudy1_DataMart/case1_WeeklySalesData.csv)
+---
+
 ## Project Details  
 
 ### Business Problem  
